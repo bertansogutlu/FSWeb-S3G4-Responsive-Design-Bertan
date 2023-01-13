@@ -24,6 +24,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
 	line-height: 1;
 }
 ol, ul {
@@ -96,7 +98,6 @@ main section {
     display: flex;
     flex-wrap: wrap;
     margin: 1vw;
-    border: 0.2rem solid black;
 }
 
 main .one {
@@ -106,7 +107,7 @@ main .one {
 
 main .one img {
     display: block;
-    width: 50%;
+    width: 49.5%;
     aspect-ratio: 1.6;
     border-radius: 1vw;
 }
@@ -161,4 +162,26 @@ main .two div h3 {
     font-weight: bold;
     text-align: center;
     margin: 1rem 0;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: blanchedalmond;
+    color: black;
+    display: block;
+    width: 10rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
 }
