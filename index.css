@@ -185,3 +185,66 @@ footer a {
     margin: auto;
     margin-bottom: 2rem;
 }
+
+@media(max-width: 1000px) {
+
+    main .two div {
+        width: 49%;
+
+    }
+
+    main .one img {
+        width: 49%;
+    }
+
+    body {
+        line-height: 1.2;
+    }
+}
+
+@media(max-width: 850px) {
+
+    main .one div {
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    main .one h2 {
+        margin-bottom: 2rem;
+    }
+
+    main .two div {
+        width: 100%;
+    }
+    
+    main .one img {
+        width: 100%;
+    }
+    
+    .one div h2 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 520px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header h1 {
+        margin: 0;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin: 1rem 0;
+    }
+
+    header nav ul a {
+
+        margin: auto;
+    }
+}
